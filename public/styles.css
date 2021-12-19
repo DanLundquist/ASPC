@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+  }
+  
+  body {
+    margin: 30px;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    }
+
+    .container{
+        border-radius: 5px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 15px;
+    }
+
+    .col-75 {
+        float: right;
+        width: 75%;
+        margin-top: 15px;
+    }
+
+    input[type=button] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        margin: 10px;
+    }
+
+    input[type=button]:hover {
+        background-color: black;
+      }
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .row1:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
