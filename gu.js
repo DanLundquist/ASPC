@@ -102,6 +102,7 @@
     document.getElementById("totaltAksjerKjøpt").innerHTML = totalAksjerKjøpt;
 }
 
+//Function to show more input fields for the user
 function showInputFields() {
     document.getElementById("gu").style.display = "";
 }

@@ -17,7 +17,7 @@
     <p> Kalkulator for gjennomsnittlig kurs ved kjøp</p>
     <div class="container">
         <form>
-            <div class="row">
+            <div class="row1">
                 <div class="col-25">
                     <label for="antallAksjer">Antall Aksjer</label>
                 </div>
@@ -25,7 +25,7 @@
                     <input type="text" id="antallAksjer" placeholder="Antall Aksjer..">
                 </div>
             </div>
-            <div class="row">
+            <div class="row1">
                 <div class="col-25">
                     <label for="Kurs">Kurs</label>
                 </div>
@@ -81,14 +81,14 @@
                     <label for="Kurs">Kurs</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="kurs4" placeholder="Kurs4..">
+                    <input type="text" id="kurs4" placeholder="Kurs..">
                 </div>
             </div>
 
 
 
             <div id="gu" style="display:none;" id="gu">
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="antallAksjer">Antall Aksjer</label>
                     </div>
@@ -96,7 +96,7 @@
                         <input type="text" id="antallAksjer5" placeholder="Antall Aksjer..">
                     </div>
                 </div>
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="Kurs">Kurs</label>
                     </div>
@@ -105,7 +105,7 @@
                     </div>
                 </div>
 
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="antallAksjer">Antall Aksjer</label>
                     </div>
@@ -113,7 +113,7 @@
                         <input type="text" id="antallAksjer6" placeholder="Antall Aksjer..">
                     </div>
                 </div>
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="Kurs">Kurs</label>
                     </div>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
 
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="antallAksjer">Antall Aksjer</label>
                     </div>
@@ -130,7 +130,7 @@
                         <input type="text" id="antallAksjer7" placeholder="Antall Aksjer..">
                     </div>
                 </div>
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="Kurs">Kurs</label>
                     </div>
@@ -139,7 +139,7 @@
                     </div>
                 </div>
 
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="antallAksjer">Antall Aksjer</label>
                     </div>
@@ -147,7 +147,7 @@
                         <input type="text" id="antallAksjer8" placeholder="Antall Aksjer..">
                     </div>
                 </div>
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="Kurs">Kurs</label>
                     </div>
@@ -156,7 +156,7 @@
                     </div>
                 </div>
 
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="antallAksjer">Antall Aksjer</label>
                     </div>
@@ -164,7 +164,7 @@
                         <input type="text" id="antallAksjer9" placeholder="Antall Aksjer..">
                     </div>
                 </div>
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="Kurs">Kurs</label>
                     </div>
@@ -173,7 +173,7 @@
                     </div>
                 </div>
 
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="antallAksjer">Antall Aksjer</label>
                     </div>
@@ -183,7 +183,7 @@
                 </div>
 
 
-                <div class="row1">
+                <div class="row">
                     <div class="col-25">
                         <label for="Kurs">Kurs</label>
                     </div>
@@ -198,24 +198,24 @@
 
 
             <div class="row">
-                <input type="button" onClick="showInputFields()" value="Vis flere" />
+                <div class="">
+                    <input type="button" onClick="showInputFields()" value="Vis flere" />
+                    <input type="button" onClick="averageStockCalculation()" Value="Regn ut" />
+                </div>
             </div>
-            <div class="row">
-                <input type="button" onClick="averageStockCalculation()" Value="Regn ut" />
-            </div>
-
         </form>
 
         <p>Gjennomsnittlig kurs for kjøpte aksjer: <br>
             <span id="resultat"></span>
         </p>
-    
+
         <p>Totalt kjøpte aksjer: <br>
             <span id="totaltAksjerKjøpt"></span>
         </p>
     </div>
 
-
+    <p>v.0.0.1
+    </p>
 </body>
 
 </html>
