@@ -1,9 +1,11 @@
-ASPC by Daniel Lundquist and maybe Jørgen Lurvik :)
-Enkel nettside med kalkis for å regn ut gjennomsnittlig kjøpspris for aksja eller lignende.
+Avarage Stock Price Calculator from User Inputs.
+The files inside the Public folder are used to host a firebase website.
+https://avarage-stock-price-calculator.web.app/
 
+While the files in the Root folder are used to host a github website
+https://danlundquist.github.io/ASPC/
 
-TODO:
-1. Lag en knapp motsatt for "show" no som gjømme elementsa igjen.
-2. Vise hvor mye penger som har blitt kjøpt for?
-3. Maks 2-3 desimaler på resultat
-4.
+Keep in mind that these might not share the same code.
+
+Project is meant for learning web app development.
+
