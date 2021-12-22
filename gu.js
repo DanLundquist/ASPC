@@ -101,9 +101,9 @@
     totaltInvistert = sumGjennomsnittligKostnad;
 
     //Calculation and prints to HTML.
-    document.getElementById("resultat").innerHTML = resultat;
-    document.getElementById("totaltAksjerKjøpt").innerHTML = totalAksjerKjøpt;
-    document.getElementById("totaltInvestert").innerHTML = totaltInvistert;
+    document.getElementById("resultat").innerHTML = resultat.toFixed(3) + "kr";
+    document.getElementById("totaltAksjerKjøpt").innerHTML = totalAksjerKjøpt + " stk";
+    document.getElementById("totaltInvestert").innerHTML = totaltInvistert + "kr";
 }
 
 //Function to show more input fields for the user
