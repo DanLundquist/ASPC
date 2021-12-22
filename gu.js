@@ -38,11 +38,13 @@
     //Sets values to 0, so it resets every time this function is called.     
     let totalAksjerKjøpt = 0;
     let sumGjennomsnittligKostnad = 0;
-
+    
     //Checks if fields have values, add them to calculation if they do.
     if (aksjer1 != null) {
         totalAksjerKjøpt = Number(aksjer1) + Number(totalAksjerKjøpt)
         sumGjennomsnittligKostnad = Number(aksjer1) * Number(kurs1) + Number(sumGjennomsnittligKostnad)
+        
+
     }
 
     if (aksjer2 != null) {
@@ -96,10 +98,12 @@
     }
 
     resultat = sumGjennomsnittligKostnad / totalAksjerKjøpt;
+    totaltInvistert = sumGjennomsnittligKostnad;
 
     //Calculation and prints to HTML.
     document.getElementById("resultat").innerHTML = resultat;
     document.getElementById("totaltAksjerKjøpt").innerHTML = totalAksjerKjøpt;
+    document.getElementById("totaltInvestert").innerHTML = totaltInvistert;
 }
 
 //Function to show more input fields for the user
